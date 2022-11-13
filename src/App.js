@@ -4,7 +4,7 @@ import Character from './components/Character';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Init></Init>}></Route>
